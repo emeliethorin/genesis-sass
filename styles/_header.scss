@@ -1,10 +1,18 @@
 header {
+    display: flex;
+    align-items: center;
     padding: 25px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4A4FF2;
+    font-style: bold;
+    font-size: 22px;
 }
 
 nav {
     gap: 10px;
-    display: inline-block;
     margin-left: 300px;
 }
 
