@@ -11,7 +11,7 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     gap: 20px;
-    height: 1110px;
+    height: 1960px;
 }
 
 .zero {
@@ -30,7 +30,7 @@
 }
 
 .three {
-    grid-row: 22 / 32;
+    grid-row: 24 / 32;
     grid-column: 1 / 4;
 }
 
@@ -45,12 +45,12 @@
 }
 
 .six {
-    grid-row: 1 / 4;
+    grid-row: 14 / 23;
     grid-column: 4 / 7;
 }
 
 .seven {
-    grid-row: 22 / 32;
+    grid-row: 23 / 32;
     grid-column: 4 / 7;
 }
 
@@ -60,16 +60,16 @@
 }
 
 .nine {
-    grid-row: 11 / 17;
+    grid-row: 11 / 18;
     grid-column: 7 / 10;
 }
 
 .ten {
-    grid-row: 18 / 26;
-    grid-column: 4 / 7;
+    grid-row: 18 / 27;
+    grid-column: 7 / 10;
 }
 
 .eleven {
-    grid-row: 22 / 32;
+    grid-row: 27 / 32;
     grid-column: 7 / 10;
 }
