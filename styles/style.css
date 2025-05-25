@@ -182,11 +182,6 @@ nav ul li a {
   margin: 20px;
 }
 
-label {
-  display: block;
-  margin-top: 10px;
-}
-
 input,
 textarea {
   -webkit-text-decoration: solid;
@@ -297,6 +292,10 @@ textarea {
 
 .column-img {
   margin: 10px;
+}
+
+.map {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
