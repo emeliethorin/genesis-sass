@@ -43,7 +43,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .grid__container {
@@ -51,7 +51,7 @@ nav ul li a {
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(32, 1fr);
   gap: 20px;
-  height: 1960px;
+  max-height: 1960px;
 }
 
 .zero {
@@ -246,7 +246,7 @@ nav ul li a {
 
 .projects-columns {
   display: grid;
-  grid-template-columns: 3fr 150px 1fr 1fr 20px;
+  grid-template-columns: 3fr 150px 1fr 1fr;
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -257,6 +257,10 @@ nav ul li a {
   font-family: Mulish;
   font-size: 18;
   font-weight: 700;
+}
+
+.column-img {
+  margin: 10px;
 }
 
 @media screen and (max-width: 800px) {

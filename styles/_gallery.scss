@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .grid__container {
@@ -11,7 +11,7 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     gap: 20px;
-    height: 1960px;
+    max-height: 1960px;
 }
 
 .zero {
