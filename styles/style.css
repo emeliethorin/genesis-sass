@@ -176,6 +176,42 @@ nav ul li a {
     grid-template-columns: 1fr;
   }
 }
+.contact-form {
+  min-width: 300px;
+  max-width: 300px;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-size: 16px;
+  font-family: Mulish;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+  padding: 8px 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  background-color: #4A4FF2;
+  color: white;
+  font-size: 16px;
+  font-family: Mulish;
+  padding: 10px 20px 10px 20px;
+  border-style: none;
+  margin-top: 10px;
+}
+
 .first {
   display: flex;
   flex-direction: row;
