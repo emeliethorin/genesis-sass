@@ -125,6 +125,11 @@ main {
     color: #000;
   }
 
+  .form-wrapper {
+    flex: 1;
+    max-width: 350px;
+  }
+
 .bold-text {
     font-family: Mulish;
     font-size: 18;

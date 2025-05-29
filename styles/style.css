@@ -173,7 +173,6 @@ nav ul li a {
 .contact-form {
   min-width: 300px;
   max-width: 300px;
-  margin: 20px;
 }
 
 input,
@@ -319,6 +318,11 @@ main {
 .value {
   font-weight: bold;
   color: #000;
+}
+
+.form-wrapper {
+  flex: 1;
+  max-width: 350px;
 }
 
 .bold-text {
