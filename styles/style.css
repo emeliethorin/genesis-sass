@@ -239,6 +239,23 @@ h3 {
   padding: 20px;
 }
 
+.presentation {
+  flex: 1 1 50%;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #4A4FF2;
+}
+
+.progress-column {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
 .progress {
   position: relative;
   top: 20px;

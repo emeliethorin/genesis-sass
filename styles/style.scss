@@ -2,6 +2,7 @@
 @import './gallery';
 @import './awards';
 @import './form';
+@import './variables';
 
 main {
     margin-left: 20px;
@@ -37,6 +38,23 @@ h3 {
     width: 100%;
     height: 210px;
     padding: 20px;
+}
+
+.presentation {
+    flex: 1 1 50%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: $secondaryH3;
+  }
+
+.progress-column {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 20px;
 }
 
 .progress {
