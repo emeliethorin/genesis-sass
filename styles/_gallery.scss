@@ -16,12 +16,12 @@
     margin: 0 auto;
     padding: 0 10px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1000px) {
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: auto;
       }
     
-      @media (max-width: 768px) {
+      @media (max-width: 800px) {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: auto;
         
