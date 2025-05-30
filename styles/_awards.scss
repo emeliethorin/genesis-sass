@@ -59,13 +59,15 @@
 
   
   @media (max-width: 800px) {
-    .awards {
+    .awards__one,
+    .awards__two {
       grid-template-columns: repeat(2, 1fr);
     }
   }
   
   @media (max-width: 480px) {
-    .awards {
+    .awards__one,
+    .awards__two {
       grid-template-columns: 1fr;
     }
   }
